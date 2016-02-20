@@ -1,0 +1,87 @@
+/*===================Framework V0.1====================*/
+/* Use Normalize */ 
+@import 'normalyze.css';
+
+/* Comment the following block in Production */
+* {
+    border: 1px solid red !important;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Google Fonts. Replace with needed fonts according to Mockup */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Grid to position elements on page */
+
+.mvgrid {
+    margin: 0 auto;
+    max-width: 880px;
+    width: 100%;
+}
+
+.mvrow { 
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mvcol-01 {
+    width: 8.33%;
+}
+
+.mvcol-02 {
+    width: 16.66%;
+}
+
+.mvcol-03 {
+    width: 25%;
+}
+
+.mvcol-04 {
+    width: 33.33%;
+}
+
+.mvcol-05 {
+    width: 41.66%;
+}
+
+.mvcol-06 {
+    width: 50%;
+}
+
+.mvcol-07 {
+    width: 58.33%;
+}
+
+.mvcol-08 {
+    width: 66.66%;
+}
+
+.mvcol-09 {
+    width: 75%;
+}
+
+.mvcol-10 {
+    width: 83.33%;
+}
+
+.mvcol-11 {
+    width: 91.66%;
+}
+
+.mvcol-12 {
+    width: 100%;
+}
+
+
+
